@@ -44,3 +44,9 @@ Reasons why CDN's are used:-
 - Improved Performance: CDNs cache content on servers located closer to the user's geographical location. When a user requests content, the CDN serves it from the nearest server, reducing latency and improving load times. This results in faster page load times and a better user experience.
 - Global Reach: CDNs have a distributed network of servers located in multiple regions and countries around the world. This enables websites and applications to deliver content quickly to users regardless of their geographic location
 - Scalability: CDNs can handle large amounts of traffic and distribute it across multiple servers. This helps websites and applications maintain performance during periods of high traffic or sudden traffic spikes.
+
+<h3> Question4 - Why is react known as a react ?</h3>
+<h3> Answer - </h3>
+
+- React, the JavaScript library for building user interfaces, is named as such because of its core concept: reacting to changes in data. The fundamental principle behind React is the idea of building UI components that react to changes in application state or data, updating the user interface dynamically without the need for manual DOM manipulation.
+- When data changes, React calculates the difference between the virtual DOM and the real DOM and applies only the necessary updates to the actual DOM, minimizing performance overhead.
