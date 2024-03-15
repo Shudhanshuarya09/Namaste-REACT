@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
+    <!-- <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script
       crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+      
   </head>
   <body>
     <div id="root">
@@ -21,14 +22,8 @@
       <!-- so all the title id's with h1 tags are not be shown on web page becuase react have a property that aside root all things will be overridden imporatant interview question.  -->
     </div>
 
-    
-
-    <script>
-      const heading = React.createElement("h1", {}, "namste react");
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-
-      //passing a react element inside the root
-      root.render(heading);
+    <script type="module" src="index1.js">
+     
     </script>
   </body>
 </html>
