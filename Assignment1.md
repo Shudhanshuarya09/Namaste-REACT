@@ -50,3 +50,9 @@ Reasons why CDN's are used:-
 
 - React, the JavaScript library for building user interfaces, is named as such because of its core concept: reacting to changes in data. The fundamental principle behind React is the idea of building UI components that react to changes in application state or data, updating the user interface dynamically without the need for manual DOM manipulation.
 - When data changes, React calculates the difference between the virtual DOM and the real DOM and applies only the necessary updates to the actual DOM, minimizing performance overhead.
+
+<h3>Question5 - What is crossorigin in script tag?</h3>
+<h3> Answer -</h3>
+
+- The crossorigin attribute is used in the <script> tag to specify how the browser should handle loading of the script when it is fetched from a different domain (origin). It is primarily used for security purposes to prevent Cross-Origin Resource Sharing (CORS) issues.
+- When you include a <script> tag to load a JavaScript file from a different origin (i.e., a domain, protocol, or port different from the current page), the browser may enforce CORS policies, which can restrict access to the fetched resource based on the origin of the requesting document.
