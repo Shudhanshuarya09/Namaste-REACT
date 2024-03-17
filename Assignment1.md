@@ -56,3 +56,12 @@ Reasons why CDN's are used:-
 
 - The crossorigin attribute is used in the <script> tag to specify how the browser should handle loading of the script when it is fetched from a different domain (origin). It is primarily used for security purposes to prevent Cross-Origin Resource Sharing (CORS) issues.
 - When you include a <script> tag to load a JavaScript file from a different origin (i.e., a domain, protocol, or port different from the current page), the browser may enforce CORS policies, which can restrict access to the fetched resource based on the origin of the requesting document.
+
+<h3>Question6 - What is diference between React and ReactDOM</h3>
+<h3> Answer -</h3>
+
+- React is a JavaScript library for building user interfaces. It provides a declarative and component-based approach to building UIs, allowing developers to create reusable UI components and manage the state of those components efficiently.
+  React focuses on the core functionality of defining components, handling state and props, and rendering the UI based on changes to the application state.
+
+- ReactDOM is a package that provides DOM-specific methods that are used to interact with the Document Object Model (DOM) in the context of React applications.
+ReactDOM is responsible for rendering React components to the DOM, updating them when the application state changes, and handling events and user interactions.
