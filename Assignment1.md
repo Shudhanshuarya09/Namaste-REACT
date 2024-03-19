@@ -64,4 +64,15 @@ Reasons why CDN's are used:-
   React focuses on the core functionality of defining components, handling state and props, and rendering the UI based on changes to the application state.
 
 - ReactDOM is a package that provides DOM-specific methods that are used to interact with the Document Object Model (DOM) in the context of React applications.
-ReactDOM is responsible for rendering React components to the DOM, updating them when the application state changes, and handling events and user interactions.
+  ReactDOM is responsible for rendering React components to the DOM, updating them when the application state changes, and handling events and user interactions.
+
+<h3>Question7 -  What is async and defer?</h3>
+<h3>Answer -</h3>
+- Async:
+Downloads script asynchronously.
+Executes as soon as it's available.
+May execute out of order.
+Defer:
+Downloads script asynchronously.
+Executes in order after document parsing.
+In summary, async is used when you want the script to load and execute as soon as possible, even if it means potentially out-of-order execution. defer is used when you want the script to wait until the HTML document has been fully parsed before executing, while still ensuring deterministic execution order. Both attributes can be useful depending on the specific requirements of your web application.
